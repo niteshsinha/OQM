@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+/*  Main Basic Styling */
+body{
+	background:#292929;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+/* Styling For The Flashy Hover Menu */
+
+ul{	list-style:none;}
+
+.slidingMenu {
+	position: absolute;
+	height:510px;
+	width: 410px;
+	top:25px;
+	overflow:hidden;
+	right:1px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.slidingMenu li {
+	display:block;
+	float:right;
+	clear:both;
+	position:relative;
+	overflow:hidden;
+}
+.slidingMenu li.move {
+	width: 9px;
+	height: 68px;
+	right:0px;
+	padding-right:10px;
+	margin-top:2px;
+	z-index: 8;
+	position: absolute;    
+	background: #2183c4;     
+	background:-webkit-gradient(linear,left top,left bottom,from(#0771b8),to(#2183c4));     
+	background: -moz-linear-gradient(top,#0771b8,#2183c4);  
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0771b8', endColorstr='#2183c4');
+	-moz-border-radius: 8px 0px 0px 8px;  
+	-webkit-border-top-left-radius: 8px;     	
+	-webkit-border-bottom-left-radius: 8px; 
+	border-top-left-radius: 8px;  
+	border-bottom-left-radius: 8px;        
+	-moz-box-shadow:1px 1px 5px #000;
+	-webkit-box-shadow:1px 1px 5px #000;
+	box-shadow:1px 1px 5px #000;	
+	
+	}
+.slidingMenu li a {
+	font-size:66px;
+	text-transform:uppercase;
+	text-decoration: none;
+	color: #ddd;
+	outline: none;
+	text-indent:5px;
+	z-index: 10;
+	display: block;
+	float: right;
+	height: 66px;
+	line-height: 66px;
+	position: relative;
+	overflow: hidden;
+	padding-right:10px;
+}
+
+/* Styling For Descriptions */
+
+.slidingMenuDesc{
+	margin-top:40px;
+	position:relative;
+}
+.slidingMenuDesc div{
+	background: #2183c4;     
+	background:	-webkit-gradient(linear,left top,left bottom,from(#0771b8),to(#2183c4));     
+	background: -moz-linear-gradient(top,#0771b8,#2183c4);   	
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0771b8', endColorstr='#2183c4');
+	height: 68px;
+	padding-right:5px;
+	left:-5px;
+	width:0px;
+	margin-top:2px;
+	overflow:hidden;
+	position:absolute;
+	-moz-box-shadow:1px 1px 5px #000;
+	-webkit-box-shadow:1px 1px 5px #000;
+	box-shadow:1px 1px 5px #000;
+	-moz-border-radius: 0px 8px 8px 0px;  
+	-webkit-border-top-right-radius: 8px;     	
+	-webkit-border-bottom-right-radius: 8px; 
+	border-top-right-radius: 8px;  
+	border-bottom-right-radius: 8px;
+	
+}
+.slidingMenuDesc div span {
+	font-size:36px;
+	color: #f0f0f0;
+	text-indent:5px;
+	z-index: 10;
+	display: block;
+	height: 66px;
+	line-height: 66px;
+	position:absolute;
+	right:10px;
+	margin-left:5px;
+	top:-3px;
+}
+
+/* Styling For Flashy Menu Ends Here */
+
+/* Styling For The Login Box */
+
+	#form1
+	{  
+	width:400px;
+	height:240px;
+	background-image:url(../images/box2.png);
+	background-repeat:no-repeat;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:auto;
+	margin-top:150px;
+	min-width:400px;
+/*	-moz-box-shadow:10px 10px 50px #3FF ;*/
+    
+	}
+	
+.form-login  {
+		padding: 6px 4px 6px 6px;
+		border: 1px solid #aeaeae;
+		background-color:#044ba3;
+		font-size: 16px;
+		color:#fff;
+		width:180px;
+		height:20px;
+		-webkit-border-radius:7px;
+		border-radius:7px;
+		-moz-border-radius:7px;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-weight:bold;
+		
+		}
+
+.label    /* label for the text boxes */
+{
+	text-align:left;
+	padding-top:5px;
+	display:inline;
+	float: left;
+	padding-left:50px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#044ba3;
+	font-style:normal;
+}
+
+/* Styling for the CSS3 Button Goess here */
+
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	font-weight:bold;
+	position:relative;
+	z-index:15;
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+
+.white {
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.white:hover {
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.white:active {
+	color: #999;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+	background: -moz-linear-gradient(top,  #ededed,  #fff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+
+/* styling for the bar at the top of page and the bar at the bottom of the page goes here */
+ 
+.myFloatBar{
+	position:absolute;
+   bottom:0;
+   left:0;
+   width:100%;
+   height:30px;
+   background-color:#999;
+   font-family:"Trebuchet MS";
+   text-shadow:0px 0px 1px;
+   z-index:0;
+   opacity:0.6;
+   filter: alpha(opacity = 30);
+   text-align:right;
+   background:-moz-linear-gradient(left center,rgb(41,41,41) 27%,rgb(107,107,107) 74%);
+   background:-webkit-gradient(linear,left top,right top,color-stop(0.27, rgb(41,41,41)),color-stop(0.74, rgb(107,107,107)));
+   filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#292929', endColorstr='#6b6b6b');
+ }
+
+span#fttext{
+	font-family:"Trebuchet MS";
+   text-shadow:0px 0px 1px;
+   text-align:right;
+   margin-right:20px;
+   color:#000;
+   font-size:13px;
+   }
+   
+ .myFloatBartop{
+   top:0;
+   left:0;
+   width:100%;
+   height:30px;
+   position:fixed;
+ background-color:#999;
+   font-family:"Trebuchet MS";
+   text-shadow:0px 0px 1px;
+   z-index:0;
+  opacity:0.6; 
+   filter: alpha(opacity = 30);
+   text-align:right;
+   background:-moz-linear-gradient(left center,rgb(41,41,41) 27%,rgb(107,107,107) 74%);
+   background:-webkit-gradient(linear,left top,right top,color-stop(0.27, rgb(41,41,41)),color-stop(0.74, rgb(107,107,107)));
+   filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#292929', endColorstr='#6b6b6b');
+
+ }

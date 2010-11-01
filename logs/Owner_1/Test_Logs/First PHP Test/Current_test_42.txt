@@ -1,0 +1,12 @@
+2010-09-19 19:17:30 | Test Authorised: For User:nits By Admin/Invigilator :nits.
+2010-09-19 19:17:30 | Test Started: User:nits has started test of duration  :00:22:30.
+2010-09-19 19:19:59 | Ques/Ans Log: Question with Id: 2 is Unanswered.
+2010-09-19 19:19:59 | Ques/Ans Log: Question with Id: 1 is Unanswered.
+2010-09-19 19:19:59 | Ques/Ans Log: Question with Id: 3 is Unanswered.
+2010-09-19 19:19:59 | Test Ended: User:nits has ended the Test.
+2010-09-19 19:19:59 | Test Result: Score : 0 with Questions Correct : 0 , Questions Incorrect : 0 and Questions Unanswered : 3.
+2010-09-19 19:20:31 | Ques/Ans Log: Question with Id: 2 is Unanswered.
+2010-09-19 19:20:31 | Ques/Ans Log: Question with Id: 1 is Unanswered.
+2010-09-19 19:20:31 | Ques/Ans Log: Question with Id: 3 is Unanswered.
+2010-09-19 19:20:31 | Test Ended: User:nits has ended the Test.
+2010-09-19 19:20:31 | Test Result: Score : 0 with Questions Correct : 0 , Questions Incorrect : 0 and Questions Unanswered : 3.

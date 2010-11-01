@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Error Page</title>
+<link rel="stylesheet" href="css/error.css" type="text/css">
+<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.textshadow.js"></script>
+    <script>$(document).ready(function(){
+  if ($.browser.msie) {
+	  var sha = {
+			x      : 0,
+			y      : 0,
+			radius : 2,
+			color  : '#191919',
+			opacity: 50
+		};
+  $(".txtshd").textShadow(sha);
+}
+})
+	
+</script>
+<style>
+body{
+	background:#6d0019 url(images/bg_top2.jpg) repeat-x top ;
+}
+</style>
+</head>
+<body>
+<div class="content">
+<div id="wrap">
+<div id="imag"></div><div id="msg" class="txtshd">There Was Some Problem With The Information You Entered At The Previous Screen.</div> 
+</div>
+<div id="button" style="float:right; margin-top:55px;">
+<a  class="button red" href="javascript:history.go(-1)">Click Here To Go Back</a>
+</div>
+
+</div>
+</body>
+</html>

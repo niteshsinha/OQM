@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+/*  Main Basic Styling */
+body{
+	background:#292929;
+	margin:0;
+	padding:0;
+}
+.block_header {
+	margin:0 auto;
+	width:960px;
+	height:135px;
+	-moz-box-shadow:0px 0px 30px #000;
+	-webkit-box-shadow:0px 0px 30px #000;
+	box-shadow:0px 0px 30px #000;
+	behavior: url(ie-css3.htc);
+	background: url(../images/bg_top2.jpg) repeat-x top;
+	border:1px solid #a90329;
+	}
+	
+/*.leftshadow {display:inline-block; float:left;margin:0; padding:0; height:135px; width:10px; background-color:#F00; background: url(../images/ltshd.jpg) top;}
+.centerblock {display:inline-block; float:left;margin:0 auto; background: url(../images/bg_top.jpg) repeat-x top; height:133px;width:938px; border:1px solid #1c6cbe;-moz-box-shadow:0px 0px 30px #000;behavior: url(ie-css3.htc);}
+.rightshadow {display:inline-block; clear:right;margin:0; padding:0; height:135px; width:10px; background-color:#F00; background: url(../images/rtshd.jpg) top;}
+.bottomshadow {margin:0 auto;  height:10px; width:950px; background-color:#F00; background: url(../images/btshd.jpg) repeat-x top;}*/
+
+.content {
+	margin:30px auto;
+	width:960px;
+	height:700px;
+	-moz-box-shadow:0px 0px 30px #000;
+	-webkit-box-shadow:0px 0px 30px #000;
+	box-shadow:0px 0px 30px #000;
+	behavior: url(ie-css3.htc);
+	border:1px solid #a90329;background:#6d0019 url(../images/bg_top2.jpg) repeat-x top ;
+	/*background: url(../images/cntntbck.jpg) repeat top;*/
+}
+
+.footer {
+	width:960px;
+	margin:0 auto;
+	padding:20px 0;
+	font:normal 10px Tahoma, Geneva, sans-serif;
+	background:url(../images/cntntbck.jpg) repeat top;
+	-moz-box-shadow:0px 0px 30px #000;
+	-webkit-box-shadow:0px 0px 30px #000;
+	box-shadow:0px 0px 30px #000;
+	behavior: url(ie-css3.htc);
+	background:#6d0019;
+	border:1px solid #a90329;
+	font-weight:bold;
+	color:#FFF;
+}
+
+.footer a{color:#FFF; text-decoration:none;margin:0 20px;}

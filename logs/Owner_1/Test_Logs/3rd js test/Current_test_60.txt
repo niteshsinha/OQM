@@ -1,0 +1,7 @@
+2010-10-06 14:36:13 | Test Authorised: For User:praf By Admin/Invigilator :nits.
+2010-10-06 14:36:13 | Test Started: User:praf has started test of duration  :01:00:05.
+2010-10-06 14:36:57 | Ques/Ans Log: Question with Id: 12 with Option no: 1 Correct Option no: 4 Status : Wrong.
+2010-10-06 14:36:57 | Ques/Ans Log: Question with Id: 11 with Option no: 2 Correct Option no: 4 Status : Wrong.
+2010-10-06 14:36:57 | Ques/Ans Log: Question with Id: 10 with Option no: 1 Correct Option no: 4 Status : Wrong.
+2010-10-06 14:36:57 | Test Ended: User:praf has ended the Test.
+2010-10-06 14:36:57 | Test Result: Score : 0 with Questions Correct : 0 , Questions Incorrect : 3 and Questions Unanswered : 0.

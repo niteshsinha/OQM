@@ -1,0 +1,5 @@
+2010-10-03 14:56:23 | Test Authorised: For User:nits By Admin/Invigilator :nits.
+2010-10-03 14:56:23 | Test Started: User:nits has started test of duration  :00:22:30.
+2010-10-03 14:56:30 | Ques/Ans Log: Question with Id: 4 is Unanswered.
+2010-10-03 14:56:30 | Test Ended: User:nits has ended the Test.
+2010-10-03 14:56:30 | Test Result: Score : 0 with Questions Correct : 0 , Questions Incorrect : 0 and Questions Unanswered : 1.

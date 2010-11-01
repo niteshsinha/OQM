@@ -1,0 +1,7 @@
+2010-10-01 12:50:23 | Test Authorised: For User:nits By Admin/Invigilator :nits.
+2010-10-01 12:50:23 | Test Started: User:nits has started test of duration  :00:22:30.
+2010-10-01 12:56:49 | Ques/Ans Log: Question with Id: 2 with Option no: 2 Correct Option no: 2 Status : Right.
+2010-10-01 12:56:49 | Ques/Ans Log: Question with Id: 3 with Option no: 4 Correct Option no: 3 Status : Wrong.
+2010-10-01 12:56:49 | Ques/Ans Log: Question with Id: 1 with Option no: 3 Correct Option no: 3 Status : Right.
+2010-10-01 12:56:49 | Test Ended: User:nits has ended the Test.
+2010-10-01 12:56:49 | Test Result: Score : 15 with Questions Correct : 2 , Questions Incorrect : 1 and Questions Unanswered : 0.

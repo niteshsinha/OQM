@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<?php
+
+usr = new User();
+?>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Test Page</title>
+<link rel="stylesheet" href="css/style_examinee.css" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.textshadow.js"></script>
+    <script>$(document).ready(function(){
+  if ($.browser.msie) {
+	  var sha = {
+			x      : 0,
+			y      : 0,
+			radius : 2,
+			color  : '#191919',
+			opacity: 50
+		};
+  $(".txtshd").textShadow(sha);
+}
+})
+	
+</script>
+</head>
+
+<body>
+<div class="block_header">
+		<!--<div class="leftshadow" ></div>
+        <div class="centerblock" ></div>
+        <div class="rightshadow" ></div>-->   
+           
+</div>
+<!--<div class="bottomshadow" ></div> -->
+<div class="content">
+
+	<div class="cnthead">
+		<div class="txtshd">Welcome &lt;User Name&gt;</div>
+    	<div class="img_rt"><img src="images/todo.png" height="100" width="100"></div>
+	</div>
+ <div class="wrap">    
+    <div class="topcol txtshd">
+      Question To Be Displayed Here
+      
+    </div>
+    <div class="botmcol txtshd">
+     <div class="radios" >
+       <label>
+         <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+         Option 1</label>
+       <label>
+         <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+         Option 2</label>
+       <label>
+         <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2">
+         Option 3</label>
+       <label>
+         <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3">
+         Option 4</label>
+     </div>
+    </div>
+    <div class="butns" align="right";>
+         <div class="prev" style="display:inline;"><input class="button rosy" type="button" value="Back"/></div>
+         <div class="nxt" style="display:inline; margin-left:30px;"><input class="button rosy" type="button" value="Next"/></div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+	
+      <ul>
+    	<li><a href="#">Review Questions</a></li>
+        <li><a href="#">Submit</a> </li>
+       </ul> 
+    
+</div>
+<div style=" display:none"><a href="http://apycom.com/"></a></div>
+</body>
+</html>

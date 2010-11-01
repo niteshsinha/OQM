@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Test Page</title>
+<link rel="stylesheet" href="css/style_examinee.css" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.textshadow.js"></script>
+    <script type="text/javascript" src="js/jquery.color.js"></script>
+    <script>$(document).ready(function(){
+  if ($.browser.msie) {
+	  var sha = {
+			x      : 0,
+			y      : 0,
+			radius : 2,
+			color  : '#191919',
+			opacity: 50
+		};
+  $(".txtshd").textShadow(sha);
+  
+}
+else
+{$("table").addClass("txtshd");}
+})
+	
+</script>
+<script>
+$(document).ready(function(){
+	$("table.revtab tr").hover(function() {
+$(this).stop().animate({ backgroundColor: "#0077f0"}, "fast");
+},function() {
+$(this).stop().animate({ backgroundColor: "#4197ee"}, "slow");
+});
+})
+</script>
+</head>
+
+<body>
+<div class="block_header">
+		<!--<div class="leftshadow" ></div>
+        <div class="centerblock" ></div>
+        <div class="rightshadow" ></div>-->   
+           
+</div>
+<!--<div class="bottomshadow" ></div> -->
+<div class="content">
+
+	<div class="cnthead">
+		<div class="txtshd">Review Section</div>
+    	<div class="img_rt"><img src="images/document.png" height="100" width="100"></div>
+	</div>
+ <div class="wrap">    
+    <table width="933" border="0" cellspacing="0" cellpadding="0" class="revtab">
+  <tr>
+    <td width="53">Serial Number</td>
+    <td width="687">Question</td>
+    <td width="129"><img src="images/pass.png" height="66" width="64"><img src="images/cross.png" height="66" width="64"></td>
+  </tr>
+  <tr >
+    <td width="53">Serial Number</td>
+    <td width="687">Question</td>
+    <td width="129"><img src="images/pass.png" height="66" width="64"><img src="images/cross.png" height="66" width="64"></td>
+  </tr>
+  <tr >
+    <td width="53">Serial Number</td>
+    <td width="687">Question</td>
+    <td width="129"><img src="images/pass.png" height="66" width="64"><img src="images/cross.png" height="66" width="64"></td>
+  </tr>
+</table>
+
+  </div>
+</div>
+
+<div class="footer">
+	
+      <ul>
+    	<li><a href="#">Review Questions</a></li>
+        <li><a href="#">Submit</a> </li>
+       </ul> 
+    
+</div>
+<div style=" display:none"><a href="http://apycom.com/"></a></div>
+</body>
+</html>
